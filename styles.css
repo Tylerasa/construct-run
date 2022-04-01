@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Quicksand", sans-serif;
+}
+#nav {
+  display: grid;
+  grid-template-columns: 4fr 10fr;
+  padding: 30px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.links {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links ul {
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.langs {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.langs ul {
+  width: 200px;
+  justify-content: space-around;
+}
+
+#top-section {
+  display: grid;
+  grid-template-columns: 4fr 10fr;
+  height: 90vh;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  /* width: 50%; */
+}
+
+li {
+  list-style-type: none;
+}
+.image-side {
+  background: url("./hero.jpg");
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

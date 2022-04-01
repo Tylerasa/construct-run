@@ -26,6 +26,7 @@ nav {
 .links ul {
   width: 100%;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .langs {
@@ -42,7 +43,7 @@ nav {
 #top-section {
   display: grid;
   grid-template-columns: 4fr 10fr;
-  height: 90vh;
+  height: 80vh;
 }
 
 ul {
@@ -54,6 +55,7 @@ ul {
 
 li {
   list-style-type: none;
+  cursor: pointer;
 }
 .image-side {
   background: url("./hero.jpg");
@@ -61,4 +63,28 @@ li {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Quicksand", sans-serif;
+}
+
+.text-wrapper {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+}
+
+.text .main {
+  font-size: 50px;
+  text-transform: uppercase;
+  width: 700px;
+  font-family: 'Cormorant Garamond', serif;
 }

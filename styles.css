@@ -52,9 +52,35 @@ nav {
   display: grid;
   grid-template-columns: 4fr 10fr;
   height: 100vh;
+  margin-bottom: 200px;
 }
 
-ul {
+#third-section {
+  /* display: grid;
+  grid-template-columns: 4fr 10fr;
+  height: auto;
+  margin-bottom: 100px; */
+  display: grid;
+  grid-template-columns: 4fr 10fr;
+  height: auto;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+#four-section {
+  display: grid;
+  grid-template-columns: 4fr 10fr;
+  height: auto;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 100px;
+  background-color: red;
+
+}
+
+.links ul,
+.langs ul {
   display: flex;
   flex-direction: row;
   padding: 0;
@@ -147,41 +173,128 @@ li {
   align-items: center;
 }
 
-.second-section-left {
+.second-section-left,
+.third-section-left {
   width: 100%;
-  transform: translateX(50%);
-
+  /* transform: translateX(50%); */
 }
 
 .second-section-text {
   font-family: "Cormorant Garamond", serif;
   font-size: 40px;
   text-transform: capitalize;
-
 }
 
-
-.second-image{
-    width: 100%;
-    /* height: 70vh; */
+.second-image {
+  width: 100%;
+  /* height: 70vh; */
 }
 
+.third-image {
+  width: 100%;
+  /* height: 70vh; */
+}
 
-.second-section-right{
-    width: 100%;
+.second-section-right {
+  width: 100%;
   transform: translateX(30%);
+  padding-top: 30px;
+}
 
+.right-inner {
+  width: 400px;
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+}
+
+.right-inner p {
+  padding-right: 20px;
+  margin-bottom: 40px;
+}
+
+.third-right-inner {
+  width: 350px;
+  font-size: 14px;
+}
+
+.third-right-inner p {
+  width: 350px;
+}
+
+.huge {
+  font-size: 28px;
+  font-weight: 500;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list ul {
+  padding: 0;
+  margin-top: 20px;
+}
+.list ul li {
+  margin-bottom: 10px;
+}
+
+.custom-button {
+  text-transform: capitalize;
+  width: auto;
+  border: 1px solid black;
+  padding: 15px 30px;
+  position: absolute;
+  bottom: 10px;
+  cursor: pointer;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.third-image-left {
+  width: 38%;
+  /* height: 960px; */
+}
+
+#five-section {
+  background: url("./hero.jpg");
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.box {
+  width: 70%;
+  background-color: white;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  transform: translateX(50%);
+  right: 50%;
+  /* padding: 20px 50px; */
+  padding: 50px 100px 0 100px;
+  display: grid;
+  grid-template-columns: 90% 10%;
+}
+
+.box-inner {
+  width: 90%;
 }
 
 
-.right-inner{
-    width: 400px;
-    position: absolute;
-    bottom: 0;
-    font-size: 14px;
+
+.design{
+  font-family: "Cormorant Garamond", serif;
+color: #bed8e5;
 }
 
-.right-inner p{
-    padding-right: 20px;
-margin-bottom: 40px;
+
+footer{
+    height: 200px;
+
 }

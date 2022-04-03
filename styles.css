@@ -187,7 +187,7 @@ li {
 
 .second-section-right {
   width: 100%;
-  transform: translateX(30%);
+  transform: translateX(40%);
   padding-top: 30px;
 }
 
@@ -276,9 +276,78 @@ li {
   width: 90%;
 }
 
-
-
-.design{
+.design {
   font-family: "Cormorant Garamond", serif;
-color: #bed8e5;
+  color: #bed8e5;
+}
+
+footer {
+  height: 50vh;
+  display: grid;
+  width: 70%;
+  margin: auto;
+  grid-template-columns: 6fr 10fr;
+  height: auto;
+  margin-bottom: 100px;
+  margin-top: 200px;
+}
+
+.box-icon-wrapper {
+  display: flex;
+  align-items: flex-end;
+}
+
+.next {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-main-text {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.footer-grid-left ul,
+.footer-grid-right ul {
+  padding: 0;
+}
+
+.footer-left {
+}
+
+.footer-right {
+  width: 100%;
+  transform: translateX(40%);
+}
+
+.footer-right-inner {
+  width: 400px;
+  font-size: 14px;
+}
+
+.footer-grid-left p,
+.footer-grid-right p {
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  width: fit-content;
+}
+
+.footer-grid-left,
+.footer-grid-right {
+  margin-bottom: 50px;
+}
+
+.footer-grid-left ul,
+.footer-grid-right ul {
+  border-top: 2px solid black;
+  padding-top: 10px;
 }

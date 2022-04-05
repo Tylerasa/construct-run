@@ -29,6 +29,22 @@ nav {
   flex-direction: row;
   justify-content: space-between;
 }
+
+
+.nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+
 .links {
   width: 50%;
   display: flex;

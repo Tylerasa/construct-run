@@ -14,6 +14,11 @@ body {
   margin: auto;
 }
 
+a{
+  text-decoration: none;
+color: black;
+}
+
 #nav {
   display: grid;
   grid-template-columns: 20% 80%;
@@ -402,7 +407,30 @@ footer {
 }
 
 .selector-image {
-  background: url(./hero.jpg);
+  background: url(./image2.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.fire-image{
+  background: url(./image4.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+
+.white-lily-img{
+  background: url(./image3.jpg);
   width: 100%;
   background-position: center;
   background-size: cover;
